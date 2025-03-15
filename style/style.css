@@ -27,7 +27,7 @@
 
 /* input started */
 input{
-   width: 305px;
+   width: 285px;
    height: 56px;
    padding: 1rem;
    border-radius: 0.6rem;
@@ -44,7 +44,7 @@ input{
 
 /* btn-1 started */
 .btn-1{
-   width: 306px;
+   width: 286px;
    height: 56px;
    font-size: 20px;
    font-weight: 600;
