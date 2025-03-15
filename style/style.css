@@ -1,0 +1,158 @@
+/* logo started */
+.logo{
+   margin: 1.5rem 0rem;
+}
+/* logo ended */
+
+/* div 1 started */
+#Madarsa{
+   margin: 2rem 0rem;
+   font-size: 24px;
+}
+/* div 1  ended */
+
+/* basic started */
+.basic{
+   font-size: 20px;
+   margin-top: 3rem;
+}
+/* basic ended */
+
+/* name started */
+.name{
+   font-size: 16px;
+   margin-top: 2rem;
+}
+/* name ended */
+
+/* input started */
+input{
+   width: 345px;
+   height: 56px;
+   padding: 1rem;
+   border-radius: 0.6rem;
+   border: 1px solid transparent;
+   box-shadow: 0px 4px 10px 0px #00000026;
+   
+   
+   font-size: 14px;
+   font-family: "inter";
+   font-weight: 400;
+}
+/* input ended */
+
+
+/* btn-1 started */
+.btn-1{
+   width: 346px;
+   height: 56px;
+   font-size: 20px;
+   font-weight: 600;
+   border-radius: 0.7rem;
+   border: 1px solid var(--bg-blue);
+   background-color: var(--bg-blue);
+   color: var(--bg-white);
+   margin-top: 8rem;
+}
+/* btn-1 ended */
+
+
+/* icon started */
+.icon{
+   font-size: 1.8rem;
+   padding-left: 1rem;
+}
+/* icon ended */
+
+
+/* contaienr-2 started */
+.container-2{
+   width: 447;
+   height: 541;
+   border-radius: 2rem 2rem 2rem 2rem; 
+   margin-top: 15rem;
+   margin-bottom: 2rem;
+   padding-top: 3rem;
+   padding-bottom: 1rem;
+   box-shadow: 0px 4px 20px 0px var(--bg-blue);
+}
+/* contaienr-2 ended */
+
+/* parent-2 started */
+.parent-1 {
+   margin: 2rem 0rem;
+
+}
+/* parent-2 ended */
+
+
+/* para-2 started */
+
+.para-2{
+   font-size: 1.4rem;
+   font-family: "inter";
+   font-weight: 400;
+}
+
+.username{
+   font-size: 1.6rem;
+}
+
+/* para-2 ended */
+
+
+/* parent-2 started */
+.parent-2{
+   background-color: var(--bg-blue);
+   color: var(--color-white);
+   padding-top: 1rem;
+   gap: 6rem;
+}
+
+.Rollno{
+   margin-bottom: 3rem;
+}
+
+.Subject{
+   font-size: 1.4rem;
+   font-weight: 400;
+}
+
+.Total-Number{
+   gap: 2rem;
+}
+
+/* parent-2 ended */
+
+
+/* parent-3 started */
+.parent-3 {
+   gap: 6rem;
+   padding-top: 1rem;
+   padding-left: 1.6rem;
+   
+}
+
+.obtained{
+   gap: 9rem;
+}
+/* parent-3 ended */
+
+
+/* parent-4 started */
+.parent-4{
+   gap: 6rem;
+   padding-top: 1rem;
+   padding-left: 1.6rem;
+   background-color: var(--bg-blue);
+   color: var(--color-white);
+}
+/* parent-4 ended */
+
+
+/* header started */
+.header{
+   margin-top: 3rem;
+}
+/* header ended */
+
