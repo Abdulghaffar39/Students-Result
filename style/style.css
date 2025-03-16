@@ -52,7 +52,7 @@ input{
    border: 1px solid var(--bg-blue);
    background-color: var(--bg-blue);
    color: var(--bg-white);
-   margin-top: 8rem;
+   margin-top: 2rem;
 }
 /* btn-1 ended */
 
@@ -105,6 +105,7 @@ input{
 .parent-2{
    background-color: var(--bg-blue);
    color: var(--color-white);
+   padding: 0rem 1rem;
    padding-top: 1rem;
    gap: 6rem;
 }
@@ -114,7 +115,7 @@ input{
 }
 
 .Subject{
-   font-size: 1.4rem;
+   font-size: 1.3rem;
    font-weight: 400;
 }
 
@@ -155,4 +156,24 @@ input{
    margin-top: 3rem;
 }
 /* header ended */
+
+/* design started */
+.design{
+   font-size: 1.1rem;
+}
+/* design ended */
+
+/* developer started */
+.Developer{
+   font-size: 1.3rem;
+}
+/* developer ended */
+
+
+/* head started */
+.head{
+   font-weight: 500;
+   margin-top: 4rem;
+}
+/* head ended */
 

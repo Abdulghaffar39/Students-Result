@@ -20,7 +20,7 @@
       <h1 id="Madarsa">Madarsa Misbah-ul-Quran</h1>
     </div>
 
-    <div class="">
+    <div>
 
 
     <h1 class="basic">Basic Info</h1>
@@ -30,12 +30,16 @@
     <input type="text" id="Student_Name" placeholder="Enter Your Name"><br /><br />
     
     <h1 class="name">Roll Number</h1>
-    <input type="text" id="Student_Rollno" placeholder="Enter Your Name"><br /><br />
+    <input type="number" id="Student_Rollno" placeholder="Enter Your Name"><br /><br />
 
+    <p class="head text-center fs-3" id="head"></p>
 
     <button onclick="result()" class="btn-1 inter">Result <i class="fa-solid fa-arrow-right icon"></i></button>
     
-    </div>
+  </div>
+  
+
+ 
 
 
 
@@ -43,29 +47,29 @@
 
       <div class="parent-1 d-flex flex-row justify-content-center flex-wrap aligin-items-center gap-2">
 
-        <p class="color-gray para-2" id="username_name">Student Name: </p>
-        <p class="username" id="name">Abdul Ghaffar</p>
+        <p class="color-gray para-2" id="username_name"></p>
+        <p class="username" id="Name"></p>
         
       </div>
       
       <div class="Rollno d-flex flex-row justify-content-center flex-wrap aligin-items-center gap-2">
 
-        <p class="color-gray para-2" id="username_rollno">Roll Number</p>
-        <p class="username" id="number"> 3249o3u</p>
+        <p class="color-gray para-2" id="username_rollno"></p>
+        <p class="username" id="number"></p>
 
       </div>
 
       <!-- ---------------------------------------------------------------------- -->
 
-      <div class="parent-2 d-flex flex-row justify-content-center flex-wrap aligin-items-center">
+      <div class="parent-2 d-flex flex-row justify-content-center flex-wrap aligin-items-center" id="parent_2">
 
         <div>
-          <p class="Subject">Subject</p>
+          <p class="Subject" id="subject"></p>
         </div>
 
         <div class="Total-Number d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject">Total Number</p>
-          <p class="Subject">Marks Recevied</p>
+          <p class="Subject" id="total_marks"></p>
+          <p class="Subject" id="obtained_marks"></p>
         </div>
         
       </div>
@@ -75,12 +79,12 @@
       <div class="parent-3 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="reading">Reading</p>
+          <p class="Subject" id="reading"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_marks_reading">40</p>
-          <p class="Subject" id="obtained_marks_reading">35</p>
+          <p class="Subject" id="total_marks_reading"></p>
+          <p class="Subject" id="obtained_marks_reading"></p>
         </div>
         
       </div>
@@ -90,12 +94,12 @@
       <div class="parent-3 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="surah">Reading</p>
+          <p class="Subject" id="surah"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_marks_surah">40</p>
-          <p class="Subject" id="obtained_marks_surah">35</p>
+          <p class="Subject" id="total_marks_surah"></p>
+          <p class="Subject" id="obtained_marks_surah"></p>
         </div>
         
       </div>
@@ -105,12 +109,12 @@
       <div class="parent-3 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="dua">Reading</p>
+          <p class="Subject" id="dua"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_marks_dua">40</p>
-          <p class="Subject" id="obtained_marks_dua">35</p>
+          <p class="Subject" id="total_marks_dua"></p>
+          <p class="Subject" id="obtained_marks_dua"></p>
         </div>
         
       </div>
@@ -120,12 +124,12 @@
       <div class="parent-3 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="qawaid">Reading</p>
+          <p class="Subject" id="qawaid"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_marks_qawaid">40</p>
-          <p class="Subject" id="obtained_marks_qawaid">35</p>
+          <p class="Subject" id="total_marks_qawaid"></p>
+          <p class="Subject" id="obtained_marks_qawaid"></p>
         </div>
         
       </div>
@@ -135,12 +139,12 @@
       <div class="parent-3 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="kalma">Reading</p>
+          <p class="Subject" id="kalma"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_marks_kalma">40</p>
-          <p class="Subject" id="obtained_marks_kalma">35</p>
+          <p class="Subject" id="total_marks_kalma"></p>
+          <p class="Subject" id="obtained_marks_kalma"></p>
         </div>
         
       </div>
@@ -150,12 +154,12 @@
       <div class="parent-3 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="extra_q">Reading</p>
+          <p class="Subject" id="extra_q"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_marks_extra_q">400000</p>
-          <p class="Subject" id="obtained_marks_extra-q">300005</p>
+          <p class="Subject" id="total_marks_extra_q"></p>
+          <p class="Subject" id="obtained_marks_extra_q"></p>
         </div>
         
       </div>
@@ -165,12 +169,12 @@
       <div class="parent-4 border-bottom d-flex flex-row justify-content-start flex-wrap aligin-items-center">
 
         <div>
-          <p class="Subject" id="Total_Marks">Reading</p>
+          <p class="Subject" id="Total_Marks"></p>
         </div>
 
         <div class="obtained d-flex flex-row justify-content-center flex-wrap aligin-items-center">
-          <p class="Subject" id="total_num">400000</p>
-          <p class="Subject" id="obtained_num">300005</p>
+          <p class="Subject" id="total_num"></p>
+          <p class="Subject" id="obtained_num"></p>
         </div>
         
       </div>
@@ -180,13 +184,13 @@
       <div class="header d-flex flex-row justify-content-around flex-wrap aligin-items-center gap-5">
   
         <div class="d-flex flex-column justify-content-center flex-wrap aligin-items-center">
-          <p class="fs-5">Design</p>
-          <p class="fs-3 color-blue">Hasnain Arif</p>
+          <p class="design" id="design"></p>
+          <p class="Developer color-blue" id="designer"></p>
         </div>
         
         <div>
-          <p class="fs-5">Developed</p>
-          <p class="fs-3 color-blue">Abdul Ghaffar</p>
+          <p class="design" id="Developed"></p>
+          <p class="Developer color-blue" id="Developer"></p>
         </div>
   
       </div>
