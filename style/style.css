@@ -1,3 +1,8 @@
+.main{
+   width: 345px;
+   margin: 0 auto;
+}
+
 /* logo started */
 .logo{
    margin: 1.5rem 0rem;
@@ -67,14 +72,14 @@ input{
 
 /* contaienr-2 started */
 .container-2{
-   width: 447;
+   width: 547px;
    height: 541;
    border-radius: 2rem 2rem 2rem 2rem; 
    margin-top: 15rem;
    margin-bottom: 2rem;
    padding-top: 3rem;
    padding-bottom: 1rem;
-   box-shadow: 0px 4px 20px 0px var(--bg-blue);
+   box-shadow: 0px 4px 20px 0px #B8EDFF;
 }
 /* contaienr-2 ended */
 
@@ -105,9 +110,11 @@ input{
 .parent-2{
    background-color: var(--bg-blue);
    color: var(--color-white);
-   padding: 0rem 1rem;
-   padding-top: 1rem;
-   gap: 6rem;
+   padding: 1rem 1rem;
+   
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(1 , 22px);
 }
 
 .Rollno{
@@ -129,9 +136,11 @@ input{
 /* parent-3 started */
 .parent-3 {
    gap: 6rem;
-   padding-top: 1rem;
-   padding-left: 1.6rem;
+   padding: 0.8rem 1rem;
    
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+   grid-template-rows: repeat(1 , 22px);
 }
 
 .obtained{
@@ -142,9 +151,10 @@ input{
 
 /* parent-4 started */
 .parent-4{
-   gap: 6rem;
-   padding-top: 1rem;
-   padding-left: 1.6rem;
+   display: grid;
+   grid-template-columns: repeat(2 , 2fr);
+   grid-template-rows: repeat(1 , 22px);
+
    background-color: var(--bg-blue);
    color: var(--color-white);
 }

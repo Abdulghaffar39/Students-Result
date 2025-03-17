@@ -12,7 +12,7 @@
  }
 
 body {
-    background-color: var(--bg-white);
+    background-color: var(--bg-low-white);
     color: var(--bg-black);
     margin: 0rem 2.4rem;
 }
@@ -42,13 +42,23 @@ body {
 :root {
 
   --bg-blue: #0C3375;
+  --bg-light-blue: #3E73CD;
   --bg-white: #ffffff;
+  --bg-low-white: #FFFDFA;
   --bg-black: #000000;
   --bg-gray: #808080;
 }
 
+.bg-low-white {
+  background-color: var(--bg-low-white);
+}
+
 .bg-gray {
   background-color: var(--bg-gray);
+}
+
+.bg-light-blue {
+  background-color: var(--bg-light-blue);
 }
 
 .bg-blue {
@@ -69,9 +79,15 @@ body {
 :root {
 
   --color-blue: #0C3375;
+  --color-light-blue: #3E73CD;
   --color-white: #ffffff;
+  --color-low-white: #FFFDFA;
   --color-black: #000000;
   --color-gray: #808080;
+}
+
+.color-low-white {
+  color: var(--color-low-white);
 }
 
 .color-gray {
@@ -80,6 +96,10 @@ body {
 
 .color-blue {
     color: var(--color-blue);
+}
+
+.color-light-blue {
+    color: var(--color-light-blue);
 }
 
 .color-white {

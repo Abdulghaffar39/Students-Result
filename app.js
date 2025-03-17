@@ -39,6 +39,10 @@ var Total_Marks = document.querySelector("#Total_Marks");
 var total_num = document.querySelector("#total_num");
 var obtained_num = document.querySelector("#obtained_num");
 
+var position = document.querySelector("#position");
+var give_position = document.querySelector("#give_position");
+
+
 var design = document.querySelector("#design");
 var designer = document.querySelector("#designer");
 
@@ -47,51 +51,119 @@ var Developer = document.querySelector("#Developer");
 
 var head = document.querySelector("#head");
 
+var total = 100;
+
+
 function result(){
-    
+
     if (Student_Name.value == "Safeer" && Student_Rollno.value == 621261){
 
+        var reading_plus = 30;
+        var surah_plus = 7;
+        var dua_plus = 9;
+        var qawaid_plus = 5;
+        var kalma_plus = 18;
+        var extra_q_plus = 10;
+        
+        var plus_obtained_mark = reading_plus + surah_plus + dua_plus + qawaid_plus + kalma_plus + extra_q_plus;
         
         username_name.innerHTML = "Student Name: ";
         Name.innerHTML = Student_Name.value;
         
         username_rollno.innerHTML = "Roll Number: ";
         number.innerHTML = Student_Rollno.value;
-
+        
         subject.innerHTML = "Subject";
         total_marks.innerHTML = "Total Marks"
         obtained_marks.innerHTML = "Obtained Marks";
 
         reading.innerHTML = "Reading"
         total_marks_reading.innerHTML = 40;
-        obtained_marks_reading.innerHTML = 30;
+        obtained_marks_reading.innerHTML = reading_plus;
 
         surah.innerHTML = "Surah";
-        total_marks_surah.innerHTML = 40;
-        obtained_marks_surah.innerHTML = 40;
+        total_marks_surah.innerHTML = 10;
+        obtained_marks_surah.innerHTML = surah_plus;
 
         dua.innerHTML = "Dua";
-        total_marks_dua.innerHTML = 40;
-        obtained_marks_dua.innerHTML = 40;
+        total_marks_dua.innerHTML = 10;
+        obtained_marks_dua.innerHTML = dua_plus;
 
         qawaid.innerHTML = "qawaid";
-        total_marks_qawaid.innerHTML = 40;
-        obtained_marks_qawaid.innerHTML = 40;
-
-        kalma.innerHTML = "kalma";
-        total_marks_kalma.innerHTML = 40;
-        obtained_marks_kalma.innerHTML = 40;
-
-        extra_q.innerHTML = "extra_q";
-        total_marks_extra_q.innerHTML = 40;
-        obtained_marks_extra_q.innerHTML = 40;
-
-        var total = 100;
-        var obtained = +obtained_marks_reading + +obtained_marks_surah + +obtained_marks_dua + +obtained_marks_qawaid + +obtained_marks_kalma + +obtained_marks_extra_q ;
+        total_marks_qawaid.innerHTML = 20;
+        obtained_marks_qawaid.innerHTML = qawaid_plus;
         
+        kalma.innerHTML = "kalma";
+        total_marks_kalma.innerHTML = 10;
+        obtained_marks_kalma.innerHTML = kalma_plus;
+        
+        extra_q.innerHTML = "Extra Questions";
+        total_marks_extra_q.innerHTML = 10;
+        obtained_marks_extra_q.innerHTML = extra_q_plus;
+
         Total_Marks.innerHTML = "Total Marks";
         total_num.innerHTML = total;
-        obtained_num.innerHTML = obtained;
+        obtained_num.innerHTML = plus_obtained_mark;
+
+        position.innerHTML = "Position";
+        
+        design.innerHTML = "Design by"
+        designer.innerHTML = "Hasnain Arif"
+        
+        Developed.innerHTML = "Developed by";
+        Developer.innerHTML = "Abdul Ghaffar";
+    
+
+    }else if (Student_Name.value == "Mustafa Amjad" && Student_Rollno.value == 1){
+
+        var reading_plus = 30;
+        // var surah_plus = ;
+        var dua_plus = 5;
+        var kalma_plus = 5;
+        var qawaid_plus = 15;
+        var extra_q_plus = 5;
+        
+        var plus_obtained_mark = reading_plus  + dua_plus + qawaid_plus + kalma_plus + extra_q_plus;
+        
+        username_name.innerHTML = "Student Name: ";
+        Name.innerHTML = Student_Name.value;
+        
+        username_rollno.innerHTML = "Roll Number: ";
+        number.innerHTML = Student_Rollno.value;
+        
+        subject.innerHTML = "Subject";
+        total_marks.innerHTML = "Total Marks"
+        obtained_marks.innerHTML = "Obtained Marks";
+
+        reading.innerHTML = "Reading"
+        total_marks_reading.innerHTML = 40;
+        obtained_marks_reading.innerHTML = reading_plus;
+
+        surah.innerHTML = "Surah";
+        total_marks_surah.innerHTML = "X";
+        obtained_marks_surah.innerHTML = "X";
+
+        dua.innerHTML = "Dua";
+        total_marks_dua.innerHTML = 10;
+        obtained_marks_dua.innerHTML = dua_plus;
+
+        kalma.innerHTML = "kalma";
+        total_marks_kalma.innerHTML = 10;
+        obtained_marks_kalma.innerHTML = kalma_plus;
+        
+        qawaid.innerHTML = "qawaid";
+        total_marks_qawaid.innerHTML = 30;
+        obtained_marks_qawaid.innerHTML = qawaid_plus;
+                
+        extra_q.innerHTML = "Extra Questions";
+        total_marks_extra_q.innerHTML = 10;
+        obtained_marks_extra_q.innerHTML = extra_q_plus;
+
+        Total_Marks.innerHTML = "Total Marks";
+        total_num.innerHTML = total;
+        obtained_num.innerHTML = plus_obtained_mark;
+
+        position.innerHTML = "Position";
         
         design.innerHTML = "Design by"
         designer.innerHTML = "Hasnain Arif"
