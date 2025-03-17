@@ -1,6 +1,10 @@
 .main{
-   width: 345px;
+   width: 360px;
    margin: 0 auto;
+}
+
+.parent_main{
+   margin: 0rem 2.4rem;
 }
 
 /* logo started */
@@ -32,8 +36,9 @@
 
 /* input started */
 input{
-   width: 305px;
+   width: 226px;
    height: 56px;
+   margin-right: 2rem;
    padding: 1rem;
    border-radius: 0.6rem;
    border: 1px solid transparent;
@@ -49,7 +54,7 @@ input{
 
 /* btn-1 started */
 .btn-1{
-   width: 306px;
+   width: 326px;
    height: 56px;
    font-size: 20px;
    font-weight: 600;
@@ -58,6 +63,7 @@ input{
    background-color: var(--bg-blue);
    color: var(--bg-white);
    margin-top: 2rem;
+   margin-bottom: 6rem;
 }
 /* btn-1 ended */
 
@@ -72,14 +78,10 @@ input{
 
 /* contaienr-2 started */
 .container-2{
-   width: 407px !important;
-   height: 541;
+   width: 320px !important;
    border-radius: 2rem 2rem 2rem 2rem; 
-   margin-top: 15rem;
-   margin-bottom: 2rem;
-   padding-top: 3rem;
-   padding-bottom: 1rem;
    box-shadow: 0px 4px 20px 0px #B8EDFF;
+   margin: 0rem 2.4rem;
 }
 /* contaienr-2 ended */
 
