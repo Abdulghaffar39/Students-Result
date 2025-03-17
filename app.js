@@ -40,7 +40,8 @@ var total_num = document.querySelector("#total_num");
 var obtained_num = document.querySelector("#obtained_num");
 
 var position = document.querySelector("#position");
-var give_position = document.querySelector("#give_position");
+var give_position_1 = document.querySelector("#give_position_1");
+var give_position_2 = document.querySelector("#give_position_2");
 
 
 var design = document.querySelector("#design");

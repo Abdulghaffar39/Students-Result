@@ -72,7 +72,7 @@ input{
 
 /* contaienr-2 started */
 .container-2{
-   width: 547px;
+   width: 407px !important;
    height: 541;
    border-radius: 2rem 2rem 2rem 2rem; 
    margin-top: 15rem;
