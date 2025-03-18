@@ -43,7 +43,6 @@ var position = document.querySelector("#position");
 var give_position_1 = document.querySelector("#give_position_1");
 var give_position_2 = document.querySelector("#give_position_2");
 
-
 var design = document.querySelector("#design");
 var designer = document.querySelector("#designer");
 
@@ -66,6 +65,10 @@ function result(){
         var kalma_plus = 18;
         var extra_q_plus = 10;
         
+        position.innerHTML = "Position";
+        give_position_1.innerHTML = "7th";
+        give_position_2.innerHTML = "Mumtaz";
+
         var plus_obtained_mark = reading_plus + surah_plus + dua_plus + qawaid_plus + kalma_plus + extra_q_plus;
         
         username_name.innerHTML = "Student Name: ";
@@ -90,7 +93,7 @@ function result(){
         total_marks_dua.innerHTML = 10;
         obtained_marks_dua.innerHTML = dua_plus;
 
-        qawaid.innerHTML = "qawaid";
+        qawaid.innerHTML = "Qawaid";
         total_marks_qawaid.innerHTML = 20;
         obtained_marks_qawaid.innerHTML = qawaid_plus;
         
@@ -105,8 +108,6 @@ function result(){
         Total_Marks.innerHTML = "Total Marks";
         total_num.innerHTML = total;
         obtained_num.innerHTML = plus_obtained_mark;
-
-        position.innerHTML = "Position";
         
         design.innerHTML = "Design by"
         designer.innerHTML = "Hasnain Arif"
@@ -123,6 +124,10 @@ function result(){
         var kalma_plus = 5;
         var qawaid_plus = 15;
         var extra_q_plus = 5;
+
+        position.innerHTML = "Position";
+        give_position_1.innerHTML = "7th";
+        give_position_2.innerHTML = "Mumtaz";
         
         var plus_obtained_mark = reading_plus  + dua_plus + qawaid_plus + kalma_plus + extra_q_plus;
         
@@ -152,7 +157,7 @@ function result(){
         total_marks_kalma.innerHTML = 10;
         obtained_marks_kalma.innerHTML = kalma_plus;
         
-        qawaid.innerHTML = "qawaid";
+        qawaid.innerHTML = "Qawaid";
         total_marks_qawaid.innerHTML = 30;
         obtained_marks_qawaid.innerHTML = qawaid_plus;
                 
@@ -173,9 +178,71 @@ function result(){
         Developer.innerHTML = "Abdul Ghaffar";
     
 
+    }else if(Student_Name !== "Mustafa Amjad" && Student_Name !== ""){
+        
+        head.innerHTML = "Please Enter Your Name or Roll no";
+        head.style.color = "red";
+        
     }else{
-        head.innerHTML = "Wrong Name or Roll Number"
+        
+        head.innerHTML = "Wrong Name or Roll Number";
         head.style.color = "red"
+
     }
 
+}
+
+function hide(){
+            head.innerHTML = ""
+
+            position.innerHTML = "";
+            give_position_1.innerHTML = "";
+            give_position_2.innerHTML = "";
+
+            username_name.innerHTML = "";
+            Name.innerHTML = "";
+
+            username_rollno.innerHTML = "";
+            number.innerHTML = "";
+
+            subject.innerHTML = "";
+            total_marks.innerHTML = "";
+            obtained_marks.innerHTML = "";
+
+            reading.innerHTML = "";
+            total_marks_reading.innerHTML = "";
+            obtained_marks_reading.innerHTML = "";
+
+            surah.innerHTML = "";
+            total_marks_surah.innerHTML = "";
+            obtained_marks_surah.innerHTML = "";
+
+            dua.innerHTML = "";
+            total_marks_dua.innerHTML = "";
+            obtained_marks_dua.innerHTML = "";
+
+            kalma.innerHTML = "";
+            total_marks_kalma.innerHTML = "";
+            obtained_marks_kalma.innerHTML = "";
+
+            qawaid.innerHTML = "";
+            total_marks_qawaid.innerHTML = "";
+            obtained_marks_qawaid.innerHTML = "";
+
+            extra_q.innerHTML = "";
+            total_marks_extra_q.innerHTML = "";
+            obtained_marks_extra_q.innerHTML = "";
+
+            Total_Marks.innerHTML = "";
+            total_num.innerHTML = "";
+            obtained_num.innerHTML = "";
+
+            position.innerHTML = "";
+
+            design.innerHTML = "";
+            designer.innerHTML = "";
+
+            Developed.innerHTML = "";
+            Developer.innerHTML = "";
+    
 }
