@@ -15,38 +15,47 @@
 
     <div class="main overflow-hidden d-flex flex-wrap justify-content-center flex-wrap aligin-items-center">
       
-    <div class="logo text-center">
-      <img src="./Assets/Image/WhatsApp Image 2025-03-14 at 18.24.42_cbc4dceb.jpg" width="80px"  alt="">
-    </div>
+        <div class="logo text-center">
+        <img src="./Assets/Image/WhatsApp Image 2025-03-14 at 18.24.42_cbc4dceb.jpg" width="80px"  alt="">
+        </div>
 
-    <div class="parent_main">
+        <div class="parent_main">
 
-      
-    <div class="text-center DM">
-      <h1 id="Madarsa">Madarsa Misbah-ul-Quran</h1>
-    </div>
+        
+        <div class="text-center DM">
+          <h1 id="Madarsa">Madarsa Misbah-ul-Quran</h1>
+        </div>
 
-    <div>
-
-
-    <h1 class="basic">Basic Info</h1>
+        <div class="parent_main">
 
 
-    <h1 class="name mb-3">Student Name</h1>
-    <input type="text" id="Student_Name" placeholder="Enter Your Name" required><br /><br />
-    
-    <h1 class="name mb-3">Roll Number</h1>
-    <input type="number" id="Student_Rollno" placeholder="Enter Your Name" required><br /><br />
+            <h1 class="basic">Basic Info</h1>
+            
+            
+            <h1 class="name mb-3">Student Name</h1>
+            <input type="text" id="Student_Name" placeholder="Enter Your Name" required><br /><br />
+            
+            <h1 class="name mb-3">Roll Number</h1>
+            <input type="number" id="Student_Rollno" placeholder="Enter Your Name" required><br /><br />
+            
+            
+            <h1 class="name mb-3">Section</h1>
+            <select name="feild" id="feild" class="inter">
+                
+            <option value="section" class="fs-3 inter">Select Your Section</option>
+            <option value="section" id="nazra" class="fs-3 inter">Nazra</option>
+            <option value="section" id="quran" class="fs-3 inter">Quran</option>
 
-    <p class="head text-center fs-3" id="head"></p>
-
-    <button onclick="result()" class="btn-1 inter">Result <i class="fa-solid fa-arrow-right icon"></i></button>
+            </select>
+            
+            <p class="head text-center fs-3" id="head"></p>
+            
+            <div class="d-flex flex-row justify-content-center flex-wrap aligin-items-center gap-2">
+                <button onclick="result()" id="result" class="btn-1 inter">Result <i class="fa-solid fa-arrow-right icon"></i></button>
+                <button onclick="hide()" id="clear" class="btn-2 inter">Clear</button>
+        </div>
     
   </div>
-  
-
- 
-
 
 
     <div class="container-2 text-center">
@@ -62,6 +71,13 @@
 
         <p class="color-gray para-2" id="username_rollno"></p>
         <p class="username" id="number"></p>
+
+      </div>
+      
+      <div class="section d-flex flex-row justify-content-center flex-wrap aligin-items-center gap-2">
+
+        <p class="color-gray para-2" id="section_1"></p>
+        <p class="username" id="section_2"></p>
 
       </div>
 
@@ -115,7 +131,19 @@
 
       <!-- ----------------------------------------------------------------------- -->
       
-
+      
+      
+      <div class="parent-3 border-bottom gap-2" id="parent_2">
+        
+        
+        <p class="Subject" id="kalma"></p>
+        <p class="Subject" id="total_marks_kalma"></p>
+        <p class="Subject" id="obtained_marks_kalma"></p>
+        
+      </div>
+      
+      <!-- ----------------------------------------------------------------------- -->
+      
       <div class="parent-3 border-bottom gap-2" id="parent_2">
 
 
@@ -124,19 +152,8 @@
           <p class="Subject" id="obtained_marks_qawaid"></p>
 
       </div>
-
-      <!-- ----------------------------------------------------------------------- -->
-
       
-      <div class="parent-3 border-bottom gap-2" id="parent_2">
-
-
-          <p class="Subject" id="kalma"></p>
-          <p class="Subject" id="total_marks_kalma"></p>
-          <p class="Subject" id="obtained_marks_kalma"></p>
-
-      </div>
-
+            
       <!-- ----------------------------------------------------------------------- -->
 
       
@@ -157,8 +174,8 @@
 
 
           <p class="Subject gap-2" id="Total_Marks"></p>
-          <p class="Subject" id="total_num"></p>
-          <p class="Subject" id="obtained_num"></p>
+          <p class="Subject fs-3" id="total_num"></p>
+          <p class="Subject fs-3" id="obtained_num"></p>
 
       </div>
 
@@ -166,29 +183,28 @@
       
       <div class="parent-2 gap-2" id="parent_2">
 
-
           <p class="Subject gap-2" id="position"></p>
-          <p class="Subject" id="give_position_1"></p>
-          <p class="Subject" id="give_position_2"></p>
+          <p class="Subject fs-3" id="give_position_1"></p>
+          <p class="Subject fs-3" id="give_position_2"></p>
 
       </div>
 
       <!-- ----------------------------------------------------------------------- -->
-      
-      <div class="header d-flex flex-row justify-content-around flex-wrap aligin-items-center gap-5">
-  
-        <div class="d-flex flex-column justify-content-center flex-wrap aligin-items-center">
-          <p class="design" id="design"></p>
-          <p class="Developer color-blue" id="designer"></p>
-        </div>
-        
-        <div>
-          <p class="design" id="Developed"></p>
-          <p class="Developer color-blue" id="Developer"></p>
-        </div>
-  
-      </div>
+    </div>
+    
+    
+    <div class="header d-flex flex-row justify-content-around flex-wrap aligin-items-center text-center">
 
+      <div class="line-height">
+        <p class="design" id="design"></p>
+        <p class="Developer color-blue" id="designer"></p>
+      </div>
+      
+      <div class="line-height">
+        <p class="design" id="Developed"></p>
+        <p class="Developer color-blue" id="Developer"></p>
+      </div>
+    
 
     </div>
 
