@@ -1,5 +1,5 @@
 .main{
-   width: 360px;
+   width: 393px;
    margin: 0 auto;
 }
 
@@ -34,11 +34,32 @@
 }
 /* name ended */
 
+/* Drop Down started*/
+select{
+   width: 345px;
+   height: 56px;
+   margin-right: 2rem;
+   padding: 1rem;
+   border-radius: 0.6rem;
+   border: 1px solid transparent;
+   box-shadow: 0px 4px 10px 0px #00000026;
+   outline: none;   
+   
+   font-size: 14px;
+   font-family: "inter";
+   font-weight: 400;
+}
+/* Drop Down ended*/
+
+/* option started*/
+option{
+   font-weight: 400;
+}
+/* option Down ended*/
+
 /* input started */
 input{
-
-   width: 310px;
-   width: 226px;
+   width: 345px;
    height: 56px;
    margin-right: 2rem;
    padding: 1rem;
@@ -53,13 +74,14 @@ input{
 }
 
 input:-webkit-autofill {
-   -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
 }
 /* input ended */
 
 
 /* btn-1 started */
 .btn-1{
+   width: 245px;
    height: 56px;
    font-size: 20px;
    font-weight: 600;
@@ -76,7 +98,7 @@ input:-webkit-autofill {
 
 /* btn-1 started */
 .btn-2{
-   width: 80px;
+   width: 100px;
    height: 56px;
    font-size: 20px;
    font-weight: 600;
@@ -101,17 +123,18 @@ input:-webkit-autofill {
 
 /* contaienr-2 started */
 .container-2{
-   width: 320px !important;
+   width: 345px !important;
    border-radius: 2rem 2rem 2rem 2rem; 
    box-shadow: 0px 4px 20px 0px #B8EDFF;
-   margin: 0rem 2.4rem;
+   margin: 0 auto;
+   padding-bottom: 8rem;
 }
 /* contaienr-2 ended */
 
 /* parent-2 started */
 .parent-1 {
-   margin: 2rem 0rem;
-
+   padding-top: 5rem;
+   
 }
 /* parent-2 ended */
 
@@ -137,14 +160,21 @@ input:-webkit-autofill {
    color: var(--color-white);
    padding: 1rem 1rem;
    
-    display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: repeat(1 , 22px);
-   }
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+   grid-template-rows: repeat(1 , 22px);
+   z-index: 1;
+}
    
 .Rollno{
+   padding-top: 1rem;
+   margin-bottom: 1rem;
+}
+   
+.section{
    margin-bottom: 3rem;
 }
+
 
 .Subject{
    font-size: 1.3rem;
@@ -165,7 +195,7 @@ input:-webkit-autofill {
    
    display: grid;
    grid-template-columns: repeat(3 , 1fr);
-   grid-template-rows: repeat(1 , 22px);
+   grid-template-rows: repeat(1 , 25px);
 }
 
 .obtained{
@@ -189,6 +219,7 @@ input:-webkit-autofill {
 /* header started */
 .header{
    margin-top: 3rem;
+   gap: 12rem;
 }
 /* header ended */
 
@@ -210,5 +241,8 @@ input:-webkit-autofill {
    font-weight: 500;
    margin-top: 4rem;
 }
-/* head ended */
 
+.line-height{
+   line-height: 1.2rem;
+}
+/* head ended */
