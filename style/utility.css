@@ -1,4 +1,3 @@
-
 * {   
    margin: 0;
     padding: 0;
@@ -11,7 +10,7 @@
     /* border: 1px solid black; */
  }
 
-body {
+body{
     background-color: var(--bg-low-white);
     color: var(--bg-black);
 }
