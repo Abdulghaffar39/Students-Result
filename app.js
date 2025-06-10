@@ -1575,7 +1575,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Faiz Murtaza" && Student_Rollno.value == 401213) {
+  } else if ( Student_Name.value == "Faiz Murtaza" && Student_Rollno.value == 401214) {
     var reading_plus = 33;
     // var surah_plus = ;
     var dua_plus = 0;
@@ -1643,7 +1643,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Mustafa Sahid" && Student_Rollno.value == 401214) {
+  } else if ( Student_Name.value == "Mustafa Sahid" && Student_Rollno.value == 401215) {
     var reading_plus = "X";
     // var surah_plus = ;
     var dua_plus = "X";
@@ -1709,7 +1709,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Faiz Sahid" && Student_Rollno.value == 401214) {
+  } else if ( Student_Name.value == "Faiz Sahid" && Student_Rollno.value == 401216) {
     var reading_plus = "X";
     // var surah_plus = ;
     var dua_plus = "X";
@@ -1775,7 +1775,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Ibrahim Saeed" && Student_Rollno.value == 401216) {
+  } else if ( Student_Name.value == "Ibrahim Saeed" && Student_Rollno.value == 401217) {
     var reading_plus = "X";
     // var surah_plus = ;
     var dua_plus = "X";
@@ -1841,7 +1841,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Muzamil Saeed" && Student_Rollno.value == 401217) {
+  } else if ( Student_Name.value == "Muzamil Saeed" && Student_Rollno.value == 401218) {
     var reading_plus = "X";
     // var surah_plus = ;
     var dua_plus = "X";
@@ -2039,7 +2039,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Abdul Hadi" && Student_Rollno.value == 401215) {
+  } else if ( Student_Name.value == "Abdul Hadi" && Student_Rollno.value == 401221) {
     var reading_plus = 10;
     // var surah_plus = ;
     var dua_plus = 5;
@@ -2108,7 +2108,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if (Student_Name.value == "Wasif" && Student_Rollno.value == 401218) {
+  } else if (Student_Name.value == "Wasif" && Student_Rollno.value == 401222) {
     var reading_plus = 38;
     // var surah_plus = ;
     var dua_plus = 0;
@@ -2176,7 +2176,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Shabbeer" && Student_Rollno.value == 401219) {
+  } else if ( Student_Name.value == "Shabeer" && Student_Rollno.value == 401223) {
     var reading_plus = 0;
     // var surah_plus = ;
     var dua_plus = 0;
