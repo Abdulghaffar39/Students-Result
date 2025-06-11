@@ -1,13 +1,13 @@
 * {   
-   margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    font-family: "DM";
-    font-weight: 800;
-    font-style: normal;
-    font-size: 62.5%;
-    border: 1px solid black;
+  font-family: "DM";
+  font-weight: 800;
+  font-style: normal;
+  font-size: 62.5%;
+  /* border: 1px solid black; */
  }
 
 body{
@@ -16,6 +16,10 @@ body{
 
   background-image: url(../Assets/Image/WhatsApp\ Image\ 2025-03-20\ at\ 17.02.45_99b2a9de.jpg);
   background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @font-face {
