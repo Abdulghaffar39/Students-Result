@@ -11,8 +11,11 @@
  }
 
 body{
-    background-color: var(--bg-low-white);
-    color: var(--bg-black);
+  background-color: var(--bg-low-white);
+  color: var(--bg-black);
+
+  background-image: url(../Assets/Image/WhatsApp\ Image\ 2025-03-20\ at\ 17.02.45_99b2a9de.jpg);
+  background-size: cover;
 }
 
 @font-face {

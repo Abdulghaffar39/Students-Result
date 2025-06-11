@@ -1,28 +1,13 @@
-body{
-   background-image: url(../Assets/Image/WhatsApp\ Image\ 2025-03-20\ at\ 17.02.45_99b2a9de.jpg);
-   background-size: cover;
-}
-
-
 .main{
    width: 393px;
-   margin: 0 auto;
+   margin: 0% auto;
    background-color: rgb(255, 255, 255, 57%);
 }
 
-.parent_main{
-   margin: 0rem 2.4rem;
-}
-
-/* logo started */
-.logo{
-   margin: 1.5rem 0rem;
-}
-/* logo ended */
 
 /* div 1 started */
 #Madarsa{
-   margin: 2rem 0rem;
+   margin: 1.5rem 0rem;
    font-size: 24px;
 }
 /* div 1  ended */
