@@ -7,8 +7,8 @@
     font-weight: 800;
     font-style: normal;
     font-size: 62.5%;
-    /* border: 1px solid black; */
-};
+    border: 1px solid black;
+ }
 
 body{
   background-color: var(--bg-low-white);
