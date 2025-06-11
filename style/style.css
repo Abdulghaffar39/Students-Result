@@ -28,9 +28,9 @@
 
 /* Drop Down started*/
 select{
-   width: 345px;
+   width: 330px;
    height: 56px;
-   margin-right: 2rem;
+   margin-right: 1rem;
    padding: 1rem;
    border-radius: 0.6rem;
    border: 1px solid transparent;
@@ -51,9 +51,9 @@ option{
 
 /* input started */
 input{
-   width: 345px;
+   width: 330px;
    height: 56px;
-   margin-right: 2rem;
+   margin-right: 1rem;
    padding: 1rem;
    border-radius: 0.6rem;
    border: 1px solid transparent;
@@ -72,14 +72,14 @@ input:-webkit-autofill {
 
 /* btn-1 started */
 .btn-1{
-   width: 245px;
+   width: 237px;
    height: 56px;
    border-radius: 0.7rem;
    border: 1px solid var(--bg-blue);
    background-color: var(--bg-blue);
    color: var(--bg-white);
    margin-top: 2rem;
-   margin-bottom: 6rem;
+   margin-bottom: 4rem;
 }
 
 a{
@@ -88,13 +88,10 @@ a{
    font-weight: 600;
    text-decoration: none;
    font-family: 'inter';
-   padding: 14px 72px;
+   padding: 14px 68px;
    border-radius: 0.7rem;
 }
 
-.icon{
-  
-}
 /* btn-1 ended */
 
 
