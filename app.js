@@ -2,7 +2,7 @@ var Student_Name = document.querySelector("#Student_Name");
 var Student_Rollno = document.querySelector("#Student_Rollno");
 
 var username_name = document.querySelector("#username_name");
-var Name = document.querySelector("#Name");
+var Name = document.querySelector("#name");
 
 var username_rollno = document.querySelector("#username_rollno");
 var number = document.querySelector("#number");
@@ -63,6 +63,8 @@ var Developer = document.querySelector("#Developer");
 var head = document.querySelector("#head");
 
 var total = 100;
+
+var Student_Name = Student_Name.toLowerCase()
 
 function result() {
 
@@ -138,7 +140,7 @@ function result() {
 
     head.innerHTML = '';  
   
-  } else if ( Student_Name.value == "Hunain Imran" && Student_Rollno.value == 621262) {
+  } else if ( Student_Name.value.toLowerCase() == "Hunain Imran" && Student_Rollno.value == 621262) {
 
 
     head.innerHTML = '';
@@ -211,7 +213,7 @@ function result() {
     Developer.innerHTML = "Abdul Ghaffar";
 
     
-  } else if ( Student_Name.value == "Hashir Amjad" && Student_Rollno.value == 621263) {
+  } else if ( Student_Name.value.toLowerCase() == "Hashir Amjad" && Student_Rollno.value == 621263) {
     var reading_plus = 30;
     var surah_plus = 9;
     var dua_plus = 8;
@@ -281,7 +283,7 @@ function result() {
     head.innerHTML = '';
 
 
-  } else if (Student_Name.value == "Sohail Amjad" && Student_Rollno.value == 621264) {
+  } else if (Student_Name.value.toLowerCase() == "Sohail Amjad" && Student_Rollno.value == 621264) {
     var reading_plus = 30;
     var surah_plus = 8;
     var dua_plus = 9;
@@ -350,7 +352,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Aliyan Muhammad Ali" && Student_Rollno.value == 621265) {
+  } else if ( Student_Name.value.toLowerCase() == "Aliyan Muhammad Ali" && Student_Rollno.value == 621265) {
     var reading_plus = 25;
     var surah_plus = 8;
     var dua_plus = 8;
@@ -419,7 +421,7 @@ function result() {
 
     head.innerHTML = '';
 
-  } else if ( Student_Name.value == "Aman Amir" && Student_Rollno.value == 621266) {
+  } else if ( Student_Name.value.toLowerCase() == "Aman Amir" && Student_Rollno.value == 621266) {
     var reading_plus = 30;
     var surah_plus = 5;
     var dua_plus = 5;
@@ -2253,12 +2255,13 @@ function result() {
     
   }
 
-  Student_Name.value = "";
-  Student_Rollno.value = "";
-
 }
 
 function hide() {
+
+  Student_Name.value = "";
+  Student_Rollno.value = "";
+
   head.innerHTML = "";
 
   position.innerHTML = "";
