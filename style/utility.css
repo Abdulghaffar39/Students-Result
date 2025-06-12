@@ -1,44 +1,21 @@
-* {   
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 
-  font-family: "DM";
-  font-weight: 800;
-  font-style: normal;
-  font-size: 62.5%;
-  /* border: 1px solid black; */
- }
-
-body{
-  background-color: var(--bg-low-white);
-  color: var(--bg-black);
-
-  background-image: url(../Assets/Image/WhatsApp\ Image\ 2025-03-20\ at\ 17.02.45_99b2a9de.jpg);
-  background-size: cover;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@font-face {
+   font-family: "inter";
+   src: url(../Assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
 }
 
 @font-face {
-    font-family: "inter";
-    src: url(../Assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
-}
-
-@font-face {
-    font-family: "DM";
-    src: url(../Assets/fonts/dm-serif-display/DMSerifDisplay-Regular.ttf);
+   font-family: "DM";
+   src: url(../Assets/fonts/dm-serif-display/DMSerifDisplay-Regular.ttf);
 }
 
 
 .inter {
-    font-family: "inter";
+   font-family: "inter";
 }
 
 .DM {
-    font-family: "DM";
+   font-family: "DM";
 }
 
 
@@ -46,36 +23,36 @@ body{
 /* bg-color-started */
 :root {
 
-  --bg-blue: #0C3375;
-  --bg-light-blue: #3E73CD;
-  --bg-white: #ffffff;
-  --bg-low-white: #FFFDFA;
-  --bg-black: #000000;
-  --bg-gray: #808080;
+ --bg-blue: #0C3375;
+ --bg-light-blue: #3E73CD;
+ --bg-white: #ffffff;
+ --bg-low-white: #FFFDFA;
+ --bg-black: #000000;
+ --bg-gray: #808080;
 }
 
 .bg-low-white {
-  background-color: var(--bg-low-white);
+ background-color: var(--bg-low-white);
 }
 
 .bg-gray {
-  background-color: var(--bg-gray);
+ background-color: var(--bg-gray);
 }
 
 .bg-light-blue {
-  background-color: var(--bg-light-blue);
+ background-color: var(--bg-light-blue);
 }
 
 .bg-blue {
-  background-color: var(--bg-blue);
+ background-color: var(--bg-blue);
 }
 
 .bg-white {
-  background-color: var(--bg-white);
+ background-color: var(--bg-white);
 }
 
 .bg-black {
-  background-color: var(--bg-black);
+ background-color: var(--bg-black);
 }
 /* bg-color-ended */
 
@@ -83,35 +60,35 @@ body{
 /* color-started */
 :root {
 
-  --color-blue: #0C3375;
-  --color-light-blue: #3E73CD;
-  --color-white: #ffffff;
-  --color-low-white: #FFFDFA;
-  --color-black: #000000;
-  --color-gray: #808080;
+ --color-blue: #0C3375;
+ --color-light-blue: #3E73CD;
+ --color-white: #ffffff;
+ --color-low-white: #FFFDFA;
+ --color-black: #000000;
+ --color-gray: #808080;
 }
 
 .color-low-white {
-  color: var(--color-low-white);
+ color: var(--color-low-white);
 }
 
 .color-gray {
-  color: var(--color-gray);
+ color: var(--color-gray);
 }
 
 .color-blue {
-    color: var(--color-blue);
+   color: var(--color-blue);
 }
 
 .color-light-blue {
-    color: var(--color-light-blue);
+   color: var(--color-light-blue);
 }
 
 .color-white {
-  color: var(--color-white);
+ color: var(--color-white);
 }
 
 .color-black {
-  color: var(--color-black);
+ color: var(--color-black);
 }
 /* color-ended */

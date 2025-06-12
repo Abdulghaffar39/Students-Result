@@ -1,17 +1,31 @@
-.main{
-   width: 393px;
-   padding: 0rem 1rem;
-   background-color: rgb(255, 255, 255, 57%);
+* {   
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    font-family: "DM";
+    font-weight: 800;
+    font-style: normal;
+    font-size: 62.5%;
+    border: 1px solid black;
 }
 
-.parent{
-   width: 390px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
+body{
+   background-color: var(--bg-low-white);
+   color: var(--bg-black);
    
+   background-image: url(../Assets/Image/WhatsApp\ Image\ 2025-03-20\ at\ 17.02.45_99b2a9de.jpg);
+   background-size: cover;
+}
+
+
+
+
+.main{
+   width: 393px;
+   margin: 0 auto;
+
+   background-color: rgb(255, 255, 255, 57%);
 }
 
 .parent_main{
@@ -26,6 +40,7 @@
 
 /* div 1 started */
 #Madarsa{
+   margin: 1rem 0rem;
    font-size: 24px;
 }
 /* div 1  ended */
@@ -267,8 +282,4 @@ a{
 }
 /* head ended */
 
-@media (max-width: 450px) {
-   .parent_main{
-      padding: 0rem 15rem;
-   }
-}
+
